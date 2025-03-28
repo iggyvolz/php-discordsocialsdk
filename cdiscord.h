@@ -18,7 +18,7 @@ typedef struct Discord_Allocator {
     Discord_FreeFn fnFree;
 } Discord_Allocator;
 
-//void Discord_SetGlobalAllocator(Discord_Allocator* allocator); // https://discordapp.com/channels/613425648685547541/1351742303613616299/1351742303613616299
+void Discord_SetAllocator(Discord_Allocator* allocator);
 void* Discord_Alloc(size_t size);
 void Discord_Free(void* ptr);
 void Discord_FreeProperties(Discord_Properties props);
