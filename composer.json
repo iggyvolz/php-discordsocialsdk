@@ -1,0 +1,13 @@
+{
+  "require": {
+    "php": "^8.4",
+    "ext-ffi": "*",
+    "amphp/amp": "^3.1",
+    "monolog/monolog": "^3.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "iggyvolz\\discordsocial\\": "src/"
+    }
+  }
+}
